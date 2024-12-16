@@ -1,0 +1,192 @@
+.user-container {
+    background-image: url("../assets/user-bgimg.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.n-nav {
+    padding: 20px 50px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.n-foodikologo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.n-foodikologo img {
+    width: 180px;
+}
+
+
+.n-nav .n-link button {
+    font-size: 20px;
+    font-weight: 600;
+    width: 100px;
+    height: 35px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.n-nav .n-link button:hover {
+    transform: scale(1.05);
+    color: white;
+    background-color: var(--pri-col);
+}
+
+
+.user-container .user-cont {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-cont .user-form {
+    padding: 20px 20px 5px 20px;
+    min-width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.user-form .u-name {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-form .u-input {
+    padding-top: 10px;
+}
+
+.user-form .u-input label {
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.user-form .u-icon {
+    float: right;
+}
+
+.user-form .u-input input {
+    margin-top: 6px;
+    padding: 0 15px;
+    height: 40px;
+    width: 310px;
+    font-weight: 500;
+    font-size: 17px;
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 30px;
+}
+
+.user-form .u-link2 {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.user-form .u-btn1 {
+    margin: 25px 0;
+}
+
+.user-form .u-btn {
+    height: 40px;
+    padding: 0 16px;
+    font-size: 22px;
+    font-weight: 500;
+    background-color: var(--pri-col);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.user-form .u-btn:hover {
+    background-color: black;
+    transform: scale(1.07);
+}
+
+.user-form .mailsend {
+    width: 85%;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.user-form .u-send {
+    height: 38px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: var(--pri-col);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.user-form .u-send:hover {
+    background-color: black;
+}
+
+.user-form .u-font2 {
+    font-size: 18px;
+}
+
+.user-form .u-font1 {
+    font-size: 18px;
+    font-weight: 560;
+    color: black;
+    cursor: pointer;
+}
+
+.user-form .u-font1:hover {
+    color: var(--pri-col);
+    text-decoration: underline;
+}
+
+.user-form .u-eyeicon {
+    cursor: pointer;
+}
+
+.user-form .screen,
+.user-form .screen1,
+.user-form .screen2,
+.user-form .screen3,
+.user-form .screen4 {
+    padding-top: 5px;
+    height: 20px;
+    color: red;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.user-form .screen p {
+    padding-top: 5px;
+    height: 20px;
+    color: #07bc0c;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.u-cont1 .user-form{
+    padding-bottom: 50px;
+}

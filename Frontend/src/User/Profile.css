@@ -1,0 +1,71 @@
+.p-body {
+    background-color: rgb(235, 235, 235);
+    height: 100vh;
+    width: 100%;
+}
+
+.p-body .p-userlogo {
+    width: 220px;
+}
+
+.p-body .p-cont {
+    padding: 20px 100px;
+}
+
+.p-body .p-txt {
+    font-size: 20px;
+    font-weight: 600;
+}
+.p-body .p-txt span:nth-child(2){
+    color: var(--pri-col);
+    margin-left: 10px;
+    font-size: 26px;
+}
+
+.p-body .p-cont1 {
+    padding: 30px 0;
+    display: flex;
+}
+
+.p-body .p-cont1 table {
+    margin-left: 60px;
+}
+
+.p-body .p-cont1 table td:nth-child(1) {
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.p-body .p-cont1 table td:nth-child(2) {
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.p-body .p-logout {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-body .p-lgbtn {
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+    height: 40px;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.p-body .p-lgbtn:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}

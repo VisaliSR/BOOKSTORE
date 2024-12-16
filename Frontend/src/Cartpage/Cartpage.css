@@ -1,0 +1,133 @@
+.cart-parent {
+  overflow-x: hidden;
+  min-height: 100vh;
+  background-color: rgb(235, 235, 235);
+}
+
+.cart-cont1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.cart-cont1 p {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.cart-cont1 .cart-cont {
+  padding: 0px 20%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px 40px;
+  margin-bottom: 200px;
+}
+
+.cart-foot {
+  background-color: rgb(235, 235, 235);
+  padding: 0px 20%;
+  height: 100px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+}
+
+.cart-foot1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.cart-foot1 .cart-tot {
+  height: 40px;
+}
+
+.cart-foot1 .cart-tot h5 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.cart-foot1 div {
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-foot1 .cart-tot span {
+  font-size: 22px;
+  margin-left: 20px;
+  padding: 0px 15px;
+  height: 40px;
+  font-family: sans-serif;
+  background-color: white;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid black;
+  width: 150px
+}
+
+.cart-foot1 .cart-tot span p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 550;
+  padding: 0px 15px;
+}
+
+.c-home-icon1 {
+  z-index: 120;
+  cursor: pointer;
+  height: 60px;
+  width: 60px;
+  position: fixed;
+  bottom: 25px;
+  right: 30px;
+  background-color: var(--pri-col);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid white;
+}
+
+.c-home-icon1 .c-home-icon .c-home {
+  padding-top: 5px;
+  font-size: 40px;
+  color: white;
+}
+
+.c-home-icon1 .c-home-icon:hover .c-home {
+  color: black;
+}
+
+.porder {
+  border: none;
+  border-radius: 3px;
+  width: 200px;
+  height: 40px;
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.porder:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+
+/* @media (max-aspect-ratio:16/9) {
+  .cart-cont1 .cart-cont {
+    padding: 0;
+    grid-template-columns: 1fr;
+  }
+} */

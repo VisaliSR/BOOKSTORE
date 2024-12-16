@@ -1,0 +1,40 @@
+.load-cont {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.load-cont .load-spin {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.load-cont .load-spin .l-para {
+    font-size: 22px;
+}
+
+.load-cont .load-spin .l-spin {
+    height: 50px;
+    width: 50px;
+    border: 6px solid rgb(235, 235, 235);
+    border-top: 6px solid var(--pri-col);
+    border-radius: 50%;
+    margin-left: 10%;
+    transition-property: transform;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

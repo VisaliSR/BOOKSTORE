@@ -1,0 +1,105 @@
+.inv-cont1 {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 235, 235);
+}
+
+.inv-cont {
+    min-height: 95vh;
+    width: 700px;
+    background-color: white;
+    padding: 50px;
+}
+
+.inv-cont .inv-header1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.inv-cont .inv-header2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.inv-cont .inv-oid {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.inv-cont .inv-items {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.inv-cont .inv-items th {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.481);
+}
+
+.inv-cont .inv-items td {
+    text-align: center;
+}
+
+.inv-cont .inv-items td {
+    text-align: center;
+}
+
+.inv-cont .inv-items td:nth-child(2) {
+    padding-left: 50px;
+    text-align: start;
+}
+
+.inv-cont .inv-cost1 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.inv-cont .inv-cost1 table {
+    width: 230px;
+}
+
+.inv-cont .inv-cost1 td:nth-child(1) {
+    width: 110px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inv-cont .inv-cost1 .inv-cvalue {
+    width: 100%;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.inv-cont1 .inv-navbar {
+    height: 120px;
+    width: 700px;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.inv-downloadbtn,
+.inv-navbtn {
+    height: 35px;
+    padding: 0 16px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #ff9900;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.inv-downloadbtn:hover,
+.inv-navbtn:hover {
+    background-color: black;
+    transform: scale(1.03);
+}

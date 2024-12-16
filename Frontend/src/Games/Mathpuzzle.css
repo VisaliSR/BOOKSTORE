@@ -1,0 +1,90 @@
+/* Mathpuzzle.css */
+.math-puzzles {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: #f8c291;
+  border-radius: 25px;
+  padding: 30px;
+  max-width: 450px;
+  margin: 50px auto;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  /* color: #fff; */
+  background-image: url('https://www.transparenttextures.com/patterns/small-steps.png'), linear-gradient(120deg, #ff9a9e 0%, #fecfef 100%);
+  background-size: cover;
+}
+
+h2 {
+  margin-bottom: 20px;
+  /* font-size: 2.5em; */
+  /* color: #fff; */
+  text-shadow: 2px 2px #ffa726;
+}
+
+p {
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  font-size: 1.5em;
+  padding: 10px;
+  width: 80%;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+button {
+  font-size: 1.2em;
+  padding: 12px 25px;
+  /* color: #fff; */
+  background-color: #ff6f61;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #ff3d3d;
+  transform: translateY(-3px);
+}
+
+button:focus {
+  outline: none;
+}
+
+button + button {
+  margin-top: 15px;
+}
+
+.message {
+  font-size: 1.5em;
+  margin-top: 25px;
+  color: #ffeb3b;
+  text-shadow: 1px 1px #ff9800;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  background-color: #ffebee;
+}
+
+input::placeholder {
+  color: #ff8a80;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.math-puzzles {
+  animation: bounce 1s infinite;
+}
